@@ -1,0 +1,51 @@
+$gray: #7c7c7c;
+$blue: #3e70d6;
+$lightgray: #cecece;
+$yellow: #f6f7bb;
+
+h1, h3 {
+  margin-bottom: 0.5rem;
+}
+
+h3 {
+  font-weight: lighter;
+  color: $gray;
+}
+
+.answers__container {
+  border-left: 0.5rem $lightgray solid;
+  margin-top: 1rem;
+  padding: 1rem;
+  background: $yellow;
+  }
+
+.question {
+  border-radius: 5px;
+  padding: 1rem;
+  width: 80%;
+}
+
+.submit {
+  border-radius: 5px;
+  width: 10%;
+  color: white;
+  background-color: $blue;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+
+p {
+  font-size: 1.5rem;
+  color: $gray;
+}
+
+a {
+  color: $blue;
+  opacity: 0.6;
+  transition: opacity 0.5s ease-in;
+  &:hover {
+    opacity: 1;
+  };
+
+}
